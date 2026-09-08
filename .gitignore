@@ -1,0 +1,41 @@
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# R package/library directories
+renv/library/
+renv/staging/
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+
+# Large single-cell data objects
+*.rds
+*.RDS
+*.h5
+*.h5ad
+*.loom
+
+# Raw sequencing and matrix data
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.mtx
+*.mtx.gz
+
+# Generated output
+results/
+output/
+
+# Credentials and environment variables
+.env
+.Renviron
+credentials*
+secrets*
